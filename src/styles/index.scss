@@ -1,13 +1,134 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background: #c7f3db;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.9rem;
+    color: #383733;
+    font-weight: 500;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.fix {
+    display: flex;
+    align-items: center;
+}
 
-*/
+.li-box {
+    margin-left: 5.5rem;
+    margin-right: 4.4rem;
+}
+
+.form-control {
+    background-color: transparent;
+    font-size: 0.9rem;
+    border: 0.2rem solid #383733;
+    color: #383733;
+}
+
+::placeholder {
+    color: #383733 !important; // He usado el !important porque Bootstrap no me estaba dejando cambiarlo y ya no me quedaba otra...
+  }
+
+img {
+    width: 4rem;
+}
+
+.container {
+    background-color: #fcf5e6;
+    max-width: 30rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #383733;
+    padding: 0;
+    text-align: center;
+    margin-top: 5rem;
+    box-shadow: 5px 5px #383733;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem;
+}
+
+.container-3 {
+    padding: 2rem;
+    display: flex;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-divider {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #383733;
+}
+
+li {
+    list-style-type: none;
+    text-align: start;
+}
+
+.fix:hover {
+    color: #75dbbb;
+    cursor: pointer;
+}
+
+.fix:active {
+    color: #4eae90;
+    cursor: pointer;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.warning-box {
+    display: flex;
+    text-align: left;
+    margin: 1.5rem;
+}
+
+.warning-box-inside {
+    margin-left: 1.5rem;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.title {
+    margin-left: 10.4rem;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 0.9rem;
+    height: 0.9rem;
+    border: 0.2rem solid #383733;
+
+}
+
+p {
+    margin-bottom: 0;
+    margin-left: 0.4rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+ol {
+    margin-top:1rem;
+    padding: 0px;
+}
